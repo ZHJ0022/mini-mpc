@@ -1,0 +1,32 @@
+{
+  "threshold": 2,
+  "num_parties": 3,
+  "modulus": 251,
+  "endpoints": [
+    {
+      "party_id": 1,
+      "host": "127.0.0.1",
+      "port": 8441,
+      "scheme": "https"
+    },
+    {
+      "party_id": 2,
+      "host": "127.0.0.1",
+      "port": 8442,
+      "scheme": "https"
+    },
+    {
+      "party_id": 3,
+      "host": "127.0.0.1",
+      "port": 8443,
+      "scheme": "https"
+    }
+  ],
+  "tls": {
+    "cafile": "certs/ca.crt",
+    "verify": true,
+    "check_hostname": true,
+    "certfile": "certs/insurer.crt",
+    "keyfile": "certs/insurer.key"
+  }
+}

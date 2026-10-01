@@ -45,3 +45,8 @@ Thumbs.db
 # Logs and generated files
 *.log
 benchmark-results/
+
+# Local notes and reference material
+/docs/1*.md
+/TODO.md
+/参考材料/
